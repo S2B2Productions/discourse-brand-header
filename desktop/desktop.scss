@@ -1,17 +1,17 @@
 .b-header {
   width: 100%;
   background-color: #fff;
-  height: 48px;
+  height: 58px;
   margin-bottom: 0;
 
   .title {
     float: left;
     margin-right: 24px;
     a {
-      color: var(--secondary);
+      color: var(--primary);
     }
     &:visited {
-      color: var(--secondary);
+      color: var(--primary);
     }
     .rtl & {
       float: right;
