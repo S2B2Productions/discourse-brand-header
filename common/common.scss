@@ -4,7 +4,7 @@
   }
 
   #brand-logo {
-    max-height: 32px;
+    max-height: 42px;
   }
 
   #brand-text-logo {
@@ -22,16 +22,16 @@
   .nav-pills {
     margin: 0;
     > li > a {
-      color: var(--secondary);
+      color: var(--primary);
       line-height: 22px;
       &:hover {
-        color: var(--quaternary);
-        background-color: var(--quaternary-low);
+        color: var(--primary);
+        //background-color: var(--quaternary-low);
       }
       &.active > a,
       > a.active {
-        color: var(--secondary);
-        background-color: var(--quaternary);
+        color: var(--primary);
+        //background-color: var(--quaternary);
       }
     }
   }
