@@ -26,13 +26,13 @@
       line-height: 22px;
       &:hover {
         color: var(--primary);
-        background-color: none;
+        background-color: #fff;
         //background-color: var(--quaternary-low);
       }
       &.active > a,
       > a.active {
         color: var(--primary);
-        background-color: none;
+        background-color: #fff;
         //background-color: var(--quaternary);
       }
     }
