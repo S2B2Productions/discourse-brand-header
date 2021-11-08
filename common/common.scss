@@ -1,10 +1,10 @@
 .b-header {
   .contents {
-    margin: 8px 0;
+    margin: 20px 0;
   }
 
   #brand-logo {
-    max-height: 42px;
+    max-height: 56px;
   }
 
   #brand-text-logo {
@@ -26,11 +26,13 @@
       line-height: 22px;
       &:hover {
         color: var(--primary);
+        background-color: none;
         //background-color: var(--quaternary-low);
       }
       &.active > a,
       > a.active {
         color: var(--primary);
+        background-color: none;
         //background-color: var(--quaternary);
       }
     }
